@@ -6,3 +6,9 @@
 *.tga filter=lfs diff=lfs merge=lfs -crlf
 *.fbx filter=lfs diff=lfs merge=lfs -crlf
 *.otf filter=lfs diff=lfs merge=lfs -crlf
+*.mdl filter=lfs diff=lfs merge=lfs -crlf
+*.ani filter=lfs diff=lfs merge=lfs -crlf
+*.ogg filter=lfs diff=lfs merge=lfs -crlf
+*.wav filter=lfs diff=lfs merge=lfs -crlf
+*.dds filter=lfs diff=lfs merge=lfs -crlf
+*.icns filter=lfs diff=lfs merge=lfs -crlf
