@@ -1,0 +1,8 @@
+# Project Binaries
+[Bb]uild/
+
+# Editor Generated
+*.blend[0-9]
+.*.sw*
+*~
+\#*#
