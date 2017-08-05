@@ -25,7 +25,7 @@ project (LearningUrho3D)
 set (CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake/Modules)
 
 # Include Urho3D Cmake common module
-include (Urho3D-CMake-common)
+include (UrhoCommon)
 
 # Define target name
 set (TARGET_NAME learningurho3d)
