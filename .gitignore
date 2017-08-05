@@ -1,9 +1,42 @@
 # Project Build Files
-bin/
-CMakeFiles
-cmake_install.cmake
+bin/*
+!bin/**/
+!bin/*.bat
+!bin/*.sh
+bin/*.app/
+bin/*.app.dSYM/
+bin/jit/
+bin/Screenshots/
+bin/tool/
+generated/
+
+# CMake Generated Build Files
 CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
 Makefile
+cmake_install.cmake
+install_manifest.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+/Source/**/*.cmake
+!/Source/ThirdParty/SDL/cmake/*.cmake
+!/Source/ThirdParty/SDL/include/*cmake
+/Docs/**/*.cmake
+
+# Precompiled Headers
+*.gch/
+*.pch/
+*.pch.*
+
+# Compiled Scripts
+*.asc
+*.luc
+
+# Compiled Shaders
+*.vs?
+*.ps?
 
 # Editor Generated
 *.blend[0-9]
