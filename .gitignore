@@ -1,5 +1,9 @@
-# Project Binaries
-[Bb]uild/
+# Project Build Files
+bin/
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+Makefile
 
 # Editor Generated
 *.blend[0-9]
